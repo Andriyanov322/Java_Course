@@ -1,7 +1,5 @@
 package org.example.HomeWorkLesson1;
-public class HomeWorkLesson1
-{
-
+public class HomeWorkLesson1 {
     public static void main(String[] args) {
         System.out.println("                 РУБАИ");
         System.out.println("Много лет размышлял я над жизнью земной.");
