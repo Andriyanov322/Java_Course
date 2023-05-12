@@ -8,7 +8,7 @@ public class Student {
     double averageMath;
     double averageEcon;
     double averageForeign;
-    Student (int ticketNumber, String name, String secondName, int year, double averageMath, double AverageEcon, double AverageForeign) {
+    Student (int ticketNumber, String name, String secondName, int year, double averageMath, double averageEcon, double averageForeign) {
         this.ticketNumber = ticketNumber;
         this.name = name;
         this.secondName = secondName;
