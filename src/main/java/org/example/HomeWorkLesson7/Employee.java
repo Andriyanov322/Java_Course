@@ -21,7 +21,7 @@ public class Employee {
         return salary;
     }
     public void showSalary() {
-        System.out.print(salary);
+        System.out.println(salary);
     }
     public void showId() {
         System.out.println(id);
@@ -32,15 +32,21 @@ public class Employee {
 
     public static void main(String[] args) {
         Employee e1 = new Employee(1);
+        e1.showId();
         Employee e2 = new Employee(23000,2);
+        e2.showSalary();
         Employee e3 = new Employee("Andriyanov");
+        e3.showSurName();
     }
 }
 
 class EmployeeTest {
     public static void main(String[] args) {
         Employee e1 = new Employee(1);
+        e1.showId();
         Employee e2 = new Employee(23000,2);
+        e2.showSalary();
         //Employee e3 = new Employee("Andriyanov");
+        //e3.showSurName();
     }
 }
