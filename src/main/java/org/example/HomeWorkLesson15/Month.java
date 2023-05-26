@@ -18,7 +18,7 @@ public class Month {
                     if (seconds*hours > minute) {
                         continue MIDDLE;
                     }
-                    System.out.println("Время: " + hours + ":" + minute + ":" + seconds + ".");
+                    System.out.println("Время:  " + hours + ":" + minute + ":" + seconds + ".");
                     seconds++;
                 }
             }
